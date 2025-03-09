@@ -10,5 +10,5 @@ def read_first():
 
 @app.get("/mt5")
 def init():
-    open = mt5.initialize()
+    # open = mt5.initialize()
     return "mt5 opening ........"
